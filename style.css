@@ -1,0 +1,36 @@
+body {
+	background-color: #ffffff;
+	background-image: url('images/bck.jpg');
+	font-family: sans-serif;
+}
+#carousel img {
+    width: 100%;
+    height: 470px;
+    margin-bottom: 2%;
+}
+.wrap {
+	max-width: 500px;
+	margin: auto;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+#tabla {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.polje {
+	flex-basis: 23%;
+}
+
+.polje img {
+	width: 100%;
+	cursor: pointer;
+}
+
